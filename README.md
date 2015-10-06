@@ -1,5 +1,7 @@
 # find-next-game
 
+Scrapes the True North Hockey website to find out when a provided team ID is playing next.
+
 ## `/api/team/:teamId [GET]`
 
 Responds with a JSON object containing the data for the next game and the scheduled games.
