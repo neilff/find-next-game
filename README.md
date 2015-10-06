@@ -12,9 +12,10 @@ Responds with a JSON object containing the data for the next game and the schedu
     --- | ---
     teamId | The team's ID to grab next game for
 
-```
+
 + Response 200 (application/json)
 
+```
     {
         next: {
             teamName: String,
