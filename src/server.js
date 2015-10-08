@@ -56,8 +56,8 @@ app.get('/api/team/:teamId', function(req, res) {
       const date = moment(`${month}-${day}-${year} ${time}`, dateFormat);
 
       return res.json({
+        teamName,
         next: {
-          teamName,
           date: date.format('dddd, MMMM Do YYYY, h:mm a'),
           unix: date.valueOf(),
           time,
