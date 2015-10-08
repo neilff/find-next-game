@@ -1,6 +1,7 @@
 # find-next-game
 
 Scrapes the True North Hockey website to find out when a provided team ID is playing next.
+
 [Example Query](https://tn-find-next-game.herokuapp.com/api/team/17947)
 
 ## `/api/team/:teamId [GET]`
