@@ -70,4 +70,4 @@ app.get('/api/team/:teamId', function(req, res) {
   );
 });
 
-app.listen(process.env.PORT || 5000);
+app.listen(process.env.PORT || 5002);
