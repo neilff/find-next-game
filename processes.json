@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "name": "find-next-game-api",
+      "script": "wrapper.js",
+      "args": [],
+      "watch": true,
+      "node_args": "--harmony",
+      "merge_logs": true,
+      "cwd": "src",
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": "5002"
+      },
+      "next_gen_js": true
+    }
+  ]
+}
